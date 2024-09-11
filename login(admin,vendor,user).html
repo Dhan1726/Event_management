@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Event Management System</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            background-color: #b3c6e7;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #6a89cc;
+            color: white;
+            font-size: 16px;
+        }
+        .form-group input[type="password"] {
+            margin-bottom: 20px;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: space-around;
+        }
+        .btn-group button {
+            width: 45%;
+            padding: 10px;
+            background-color: #a5b8e0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            color: black;
+            cursor: pointer;
+        }
+        .btn-group button:hover {
+            background-color: #7a91cc;
+        }
+        .action-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .action-buttons button {
+            width: 45%;
+            padding: 10px;
+            background-color: #757575;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .action-buttons button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Event Management System</h2>
+        <div class="form-group">
+            <label for="user-id">User ID</label>
+            <input type="text" id="user-id" placeholder="Enter User ID">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+        </div>
+        <div class="btn-group">
+            <button>Admin</button>
+            <button>Vendor</button>
+            <button>User</button>
+        </div>
+        <div class="action-buttons">
+            <button>Cancel</button>
+            <button>Login</button>
+        </div>
+    </div>
+
+</body>
+</html>
